@@ -4,45 +4,52 @@ A responsive movie browsing web application built with **React.js**, integrating
 
 ## Live Demo
 
- [Live App on Vercel](https://tmdb-clone-two.vercel.app)
+[Live App on Vercel](https://tmdb-clone-two.vercel.app)
 
 ---
 
-##  Tech Stack
+## Tech Stack
 
-- **React.js** (Functional Components & Hooks)
-- **Tailwind CSS** – for responsive UI design
-- **Axios** – to fetch API data
-- **TMDB API** – to retrieve movie data
-- **Vite** – for fast build setup
-- **Vercel** – for deployment
+- **React.js** (Functional Components & Hooks)  
+- **Tailwind CSS** – for responsive UI design  
+- **Axios** – to fetch API data  
+- **TMDB API** – to retrieve movie data  
+- **Vite** – for fast build setup  
+- **Vercel** – for deployment  
 
 ---
 
-##  Project Structure
+## Project Structure
 
-src/
-├── App.jsx
-├── index.js
-├── Components/
-│ ├── Movies.jsx
-│ ├── MoviesCard.jsx
-│ ├── Pagination.jsx
-│ └── WatchList.jsx
-.env
+src/  
+  App.jsx  
+  index.js  
+  Components/  
+    Movies.jsx  
+    MoviesCard.jsx  
+    Pagination.jsx  
+    WatchList.jsx  
+.env  
 vite.config.js
 
 ---
 
-##  Features
+## Features
 
--  Browse trending movies fetched from TMDB
-- Add or remove movies from your Watchlist
-- Pagination support to browse multiple pages
-- Responsive design using Tailwind
-- API key handled securely via environment variables
+- Browse trending movies fetched from TMDB  
+- Add or remove movies from your Watchlist  
+- Pagination support to browse multiple pages  
+- Responsive design using Tailwind  
+- API key handled securely via environment variables  
 
 ---
+
+## Environment Setup
+
+To run the project locally, create a `.env` file at the root:
+
+```env
+VITE_TMDB_API_KEY=your_tmdb_api_key_here
 
 ## Environment Setup
 
