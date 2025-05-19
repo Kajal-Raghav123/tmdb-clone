@@ -46,17 +46,11 @@ vite.config.js
 
 ## Environment Setup
 
-To run the project locally, create a `.env` file at the root:
+To run the project locally, create a .env file at the root:
 
-```env
+env
 VITE_TMDB_API_KEY=your_tmdb_api_key_here
 
-## Environment Setup
-
-To run the project locally, create a `.env` file at the root:
-
-```env
-VITE_TMDB_API_KEY=your_tmdb_api_key_here
 # Getting Started
 1. Clone the Repository
 git clone https://github.com/Kajal-Raghav123/tmdb-clone.git
