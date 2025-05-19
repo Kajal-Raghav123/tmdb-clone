@@ -21,7 +21,8 @@ function Movies({handleAddWatchList,handleRemoveWatchList,watchList}) {
   }
 
   useEffect(()=> {
-    axios.get(`https://api.themoviedb.org/3/movie/popular?api_key=${process.env.REACT_APP_TMDB_API_KEY}&language=en-US&page=${PageNo}`).then(function(res){
+axios.get(`https://api.themoviedb.org/3/movie/popular?api_key=${import.meta.env.VITE_TMDB_API_KEY}&language=en-US&page=${PageNo}`)
+.then(function(res){
       setMovies(res.data.results);
     });
   },[PageNo])
