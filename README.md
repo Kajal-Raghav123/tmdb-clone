@@ -21,20 +21,26 @@ A responsive movie browsing web application built with **React.js**, integrating
 
 ## Project Structure
 
-src/  
-  App.jsx  
-  index.js  
-  Components/ 
-    Banner.jsx
-    Navbar.jsx
-    Movies.jsx  
-    MoviesCard.jsx  
-    Pagination.jsx  
-    WatchList.jsx  
-.env  
-vite.config.js
+tmdb-clone/
+│
+├── src/
+│   ├── Components/
+│   │   ├── Banner.jsx
+│   │   ├── Movies.jsx
+│   │   ├── MoviesCard.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── Pagination.jsx
+│   │   └── WatchList.jsx
+│   │
+│   ├── App.jsx
+│   └── main.jsx       <-- (not index.js because Vite uses main.jsx by default)
+│
+├── .env
+├── vite.config.js
+├── package.json
+├── README.md
+└── node_modules/
 
----
 
 ## Features
 
