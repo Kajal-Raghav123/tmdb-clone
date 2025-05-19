@@ -59,14 +59,14 @@ VITE_TMDB_API_KEY=your_tmdb_api_key_here
 # Getting Started
 1. Clone the Repository
 git clone https://github.com/Kajal-Raghav123/tmdb-clone.git
-cd tmdb-clone
+-cd tmdb-clone
 2. Install Dependencies
-npm install
+-npm install
 3. Add API Key
 Create a .env file in the root:
-VITE_TMDB_API_KEY=your_tmdb_api_key_here
+-VITE_TMDB_API_KEY=your_tmdb_api_key_here
 4. Run the App
-npm run dev
+-npm run dev
 
 
 
