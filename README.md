@@ -24,7 +24,9 @@ A responsive movie browsing web application built with **React.js**, integrating
 src/  
   App.jsx  
   index.js  
-  Components/  
+  Components/ 
+    Banner.jsx
+    Navbar.jsx
     Movies.jsx  
     MoviesCard.jsx  
     Pagination.jsx  
