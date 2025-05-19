@@ -1,12 +1,66 @@
-# React + Vite
+# TMDB Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive movie browsing web application built with **React.js**, integrating with **The Movie Database (TMDB) API**. Users can explore trending movies, manage their watchlist, and enjoy seamless navigation across pages.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ [Live App on Vercel](https://tmdb-clone-two.vercel.app)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Tech Stack
+
+- **React.js** (Functional Components & Hooks)
+- **Tailwind CSS** – for responsive UI design
+- **Axios** – to fetch API data
+- **TMDB API** – to retrieve movie data
+- **Vite** – for fast build setup
+- **Vercel** – for deployment
+
+---
+
+##  Project Structure
+
+src/
+├── App.jsx
+├── index.js
+├── Components/
+│ ├── Movies.jsx
+│ ├── MoviesCard.jsx
+│ ├── Pagination.jsx
+│ └── WatchList.jsx
+.env
+vite.config.js
+
+---
+
+##  Features
+
+-  Browse trending movies fetched from TMDB
+- Add or remove movies from your Watchlist
+- Pagination support to browse multiple pages
+- Responsive design using Tailwind
+- API key handled securely via environment variables
+
+---
+
+## Environment Setup
+
+To run the project locally, create a `.env` file at the root:
+
+```env
+VITE_TMDB_API_KEY=your_tmdb_api_key_here
+# Getting Started
+1. Clone the Repository
+git clone https://github.com/Kajal-Raghav123/tmdb-clone.git
+cd tmdb-clone
+2. Install Dependencies
+npm install
+3. Add API Key
+Create a .env file in the root:
+VITE_TMDB_API_KEY=your_tmdb_api_key_here
+4. Run the App
+npm run dev
+
+
+
