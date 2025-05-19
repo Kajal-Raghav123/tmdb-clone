@@ -24,19 +24,18 @@ A responsive movie browsing web application built with **React.js**, integrating
 tmdb-clone/
 - src/
   - Components/
-    - Banner.jsx
     - Movies.jsx
     - MoviesCard.jsx
-    - Navbar.jsx
     - Pagination.jsx
     - WatchList.jsx
   - App.jsx
-  - main.jsx      (Note: Vite uses main.jsx by default, not index.js)
+  - main.jsx    (Vite uses main.jsx by default)
 - .env
 - vite.config.js
 - package.json
 - README.md
 - node_modules/
+
 
 
 ## Features
@@ -56,17 +55,19 @@ To run the project locally, create a .env file at the root:
 env
 VITE_TMDB_API_KEY=your_tmdb_api_key_here
 
-# Getting Started
-1. Clone the Repository
-git clone https://github.com/Kajal-Raghav123/tmdb-clone.git
--cd tmdb-clone
-2. Install Dependencies
--npm install
-3. Add API Key
-Create a .env file in the root:
--VITE_TMDB_API_KEY=your_tmdb_api_key_here
-4. Run the App
--npm run dev
+## Environment Setup
 
+1. Clone the Repository  
+   `git clone https://github.com/Kajal-Raghav123/tmdb-clone.git`  
+   `cd tmdb-clone`
+
+2. Install Dependencies  
+   `npm install`
+
+3. Add API Key  
+   Create a `.env` file in the root directory with this content:  
+--VITE_TMDB_API_KEY=your_tmdb_api_key_here
+4. Run the App  
+`npm run dev`
 
 
